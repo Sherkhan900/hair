@@ -45,11 +45,11 @@ def jalan(z):
 
 
 logo = """		
- \033[1;91m _______           _______   \033[1;92m_______ 
+ \033[1;91m _______           _______ _______ 
  \033[1;93m(  ____ \|\     /|(  ____ \(  ____ )
  \033[1;94m| (    \/| )   ( || (    \/| (    )|
  \033[1;36m| (_____ | (___) || (__    | (____)|
- \033[1;95m(_____  )|  ___  ||  __)   |      \033[1;96m__)
+ \033[1;95m(_____  )|  ___  ||  __)   |     __)
  \033[1;91m      ) || (   ) || (      | (\ (   
  \033[1;92m/\____) || )   ( || (____/\| ) \ \__
  \033[1;93m\_______)|/     \|(_______/|/   \__/
@@ -58,7 +58,7 @@ logo = """
 
 \x1b[1;94m──────────────────────────────────────────────────────
 \x1b[1;91m➣ MY NAME IS SHER MOHAMMAD PITAFI
-\x1b[1;92m➣ PITAFI HACKER
+\x1b[1;92m➣Hello Friends
 \x1b[1;93m➣ AUTHOR : Sher Mohammad Pitafi
 \x1b[1;95m➣ WHATSAPP : +923113929454
 \x1b[1;96m➣ FACEBOOK : Pagal fighter
@@ -147,7 +147,7 @@ def tokenz():
         zedd = open('login.txt', 'w')
         zedd.write(toket)
         zedd.close()
-        jalan('\x1b[1;92mLOVE YOU:) ')
+        jalan('\x1b[1;92mENJOY:) ')
         print '\x1b[1;91m[\x1b[1;39m\xe2\x9c\x93\x1b[1;97m]\x1b[1;39m  Successful Login'
         os.system('xdg-open https://chat.whatsapp.com/EFZDUDDgKGZ94yVZJi453K')
         bot_komen()
@@ -207,7 +207,7 @@ def menu():
 
     os.system('clear')
     print logo
-    print '\x1b[37;1m> Name \x1b[1;91m: \x1b[31;1m' + nama + '\x1b[1;97m                  '
+    print '\x1b[1;93m> Name \x1b[1;91m: \x1b[31;1m' + nama + '\x1b[1;97m                  '
     print '\x1b[37;1m> ID   \x1b[1;91m: \x1b[31;1m' + id + '\x1b[1;97m              '
     print '\n\x1b[1;91m> 1.\x1b[0m Start Crack....'
     print '\n\x1b[1;93m> 0.\x1b[0m Logout.....            '
@@ -249,8 +249,8 @@ def super():
 
     os.system('clear')
     print logo
-    print '\x1b[1;97m> 1.\x1b[0m \x1b[37;1m Crack from friends list'
-    print '\x1b[1;97m> 2.\x1b[0m \x1b[37;1m Crack from Public Id'
+    print '/033[1;91m> 1.\x1b[0m \033[1;95m Crack from friends list'
+    print '\033[1;91m> 2.\x1b[0m \033[1;95m Crack from Public Id'
     pilih_super()
 
 
@@ -291,13 +291,13 @@ def pilih_super():
 
     print '\x1b[1;97m[+] \x1b[0mTotal ID: ' + str(len(id))
     time.sleep(1)
-    pw1 = raw_input('\x1b[1;92m[+] \x1b[0m Set Password  :')
-    pw2 = raw_input('\x1b[1;92m[+] \x1b[0m Set Password  :')
-    pw3 = raw_input('\x1b[1;92m[+] \x1b[0m Set Password  :')
-    pw4 = raw_input('\x1b[1;;92m[+] \x1b[0m Set Password  :')
-    print '\x1b[1;97m[+] \x1b[0m Running Crack Please Wait\x1b[0m..........'
+    pw1 = raw_input('\x1b[1;92m[+] \x1b[1;92 Set Password  :')
+    pw2 = raw_input('\x1b[1;92m[+] \x1b[1;93 Set Password  :')
+    pw3 = raw_input('\x1b[1;92m[+] \x1b[1;94 Set Password  :')
+    pw4 = raw_input('\x1b[1;;92m[+] \x1b[1;95 Set Password  :')
+    print '\x1b[1;91m[+] \x1b[1;91m Running Crack Please Wait\x1b[0m..........'
     time.sleep(4)
-    print '\x1b[1;97m[+] \x1b[0m If No Results Use Data / Airplane Mode'
+    print '\x1b[1;91m[+] \x1b[1;91m If No Results Use Data / Airplane Mode'
     print 1 * '\x1b[1;97m\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\xd9\x80\x1b[0m'
 
     def main(arg):
