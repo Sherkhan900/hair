@@ -13,7 +13,7 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = ['Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/222.0.0.15.124;]']
 
 def keluar():
-    print '\x1b[1;91mExit'
+    print ';91mExit'
     os.sys.exit()
 
 
